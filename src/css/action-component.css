@@ -1,0 +1,126 @@
+.action-component {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+
+    border: 4px solid #63D2C1;
+    padding: 68px 242px 54px;
+}
+
+#action-component-after {
+    display: none;
+    width: 992px;
+    height: 659px;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+}
+
+.action-component .font-title-2 {
+    position: absolute;
+    left: 145px;
+    top: -28px;
+
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.action-component__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+
+    margin-bottom: 28px;
+}
+
+.action-component__note {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*gap: ;*/
+}
+
+.action-component__form-confirm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+#thanks {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.action-component__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-block-end: 0;
+}
+
+.action-component__form-field {
+    position: relative;
+    display: flex;
+}
+
+.action-component__form input[type="submit"] {
+    margin-top: 18px;
+    border: none;
+    width: 250px;
+}
+
+.action-component__form-field input[type="text"] {
+    padding: 18px 24px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    width: 500px;
+}
+
+.action-component__form-field input[type="text"] + label {
+    position: absolute;
+    left: 24px;
+    top: calc(50% - 12px);
+
+    transition: top 100ms;
+}
+
+.action-component__form-field input[type="text"]:focus-visible {
+    outline: none;
+    border-color: #F9572E;
+}
+
+.action-component__form-field input[type="text"]:hover {
+    border-color: #F9572E;
+}
+
+.action-component__form-field input[type="text"]:focus-visible + label {
+    top: -9px;
+    background-color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #F9572E;
+}
+
+#privacy-link {
+    color: #F9572E;
+    text-decoration: none;
+}
+
+#privacy-link:hover {
+    color: #F9572E;
+    cursor: pointer;
+}
+
+#privacy-link:visited {
+    color: #F9572E;
+}

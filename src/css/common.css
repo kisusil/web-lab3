@@ -1,0 +1,153 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body, h1, h2, h3 {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Muller Regular";
+    font-style: normal;
+    font-weight: 400;
+
+    url("fonts/MullerRegular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Muller Medium";
+    font-style: normal;
+    font-weight: 400;
+
+    url("fonts/MullerMedium.woff") format("woff");
+}
+
+.color-black {
+    color: black;
+}
+
+.color-gray {
+    color: #666666;
+}
+
+.color-mint {
+    color: #33B5A3;
+}
+
+.color-orange {
+    color: #F9572E;
+}
+
+.font-title-1 {
+    font-family: 'Muller Medium', sans-serif;
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.font-title-2 {
+    font-family: 'Muller Medium', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.font-title-3 {
+    font-family: 'Muller Medium', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.font-title-4 {
+    font-family: 'Muller Medium', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.font-title-accent {
+    font-family: 'Muller Medium', sans-serif;
+    font-size: 64px;
+    line-height: 60px;
+}
+
+.font-reg-1 {
+    font-family: 'Muller Regular', sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.font-reg-2 {
+    font-family: "Muller Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.font-reg-3 {
+    font-family: "Muller Regular", sans-serif;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.font-reg-4 {
+    font-family: "Muller Regular", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.font-reg-accent {
+    font-family: "Muller Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.font-note-1 {
+    font-family: "Muller Regular", sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.action-button {
+    padding: 17px 31px 15px;
+
+    background-color: #F9572E;
+    filter: drop-shadow(0px 7px 15px rgba(249, 87, 46, 0.60));
+
+    border-radius: 100px;
+
+    color: white;
+    font-family: "Muller Medium", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+
+    text-decoration: none;
+
+    transition: background-color 200ms;
+}
+
+.action-button:hover {
+    background-color: #FF7B59;
+}
+
+.action-button:visited {
+    color: white;
+}
+
+.mb-4 {
+    margin-bottom: 4px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.span-as-div {
+    display: block;
+}

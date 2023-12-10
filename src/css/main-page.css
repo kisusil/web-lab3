@@ -1,0 +1,10 @@
+.main-page {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 134px;
+
+    padding-top: 166px;
+}

@@ -1,0 +1,166 @@
+.welcome-component {
+    width: calc(100% - 40px);
+    height: 920px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.welcome-component__short-desc {
+    height: calc(100% - 56px);
+    width: calc(50% - 40px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 90px;
+}
+
+.welcome-component__short-desc__content {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+
+    padding-bottom: 53px; /* Чтобы сместить выше относительно центра*/
+}
+
+.welcome-component__short_desc__content__button {
+    margin-top: 17px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 31px;
+}
+
+.welcome-component__short-desc__hint {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.welcome-component__short-desc__hint:hover {
+    cursor: pointer;
+}
+
+#short-desc {
+    display: block;
+    width: 460px;
+}
+
+#hint-icon {
+    background-repeat: no-repeat;
+    background-image: url("../images/icon1Default.svg");
+    background-color: transparent;
+
+    width: 43px;
+    height: 32px;
+
+    border-radius: 0;
+    border: 0;
+}
+
+.welcome-component__short-desc__hint:hover #hint-icon {
+    background-image: url("../images/icon1Hover.svg");
+    background-position: center;
+    cursor: pointer;
+}
+
+#hint {
+    color: #F9572E;
+    font-family: 'Muller Medium', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+
+    display: block;
+    width: 200px;;
+}
+
+
+
+
+.welcome-component__video {
+    height: 100%;
+    width: 50%;
+
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/first.png");
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.welcome-component__video__contacts {
+    height: 63px;
+    width: calc(100% - 89px);
+
+    padding-top: 39px;
+    padding-right: 89px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.welcome-component__video__contacts__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 9px;
+}
+
+.welcome-component__video__contacts__button:hover {
+    cursor: pointer;
+}
+
+.welcome-component__video__contacts__button:hover span {
+    color: #F9572E;
+}
+
+.welcome-component__video__play__stub {
+    height: 121px;
+}
+
+.welcome-component__video__play {
+    display: flex;
+    justify-content: space-around;
+}
+
+.welcome-component__video__play__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+}
+
+.welcome-component__video__play__button:hover {
+    cursor: pointer;
+}
+
+#play {
+    background-image: url("../images/icon3Default.svg");
+    background-size: cover;
+    background-color: transparent;
+
+    height: 250px;
+    width: 250px;
+
+    border-radius: 0;
+    border-width: 0;
+}
+
+.welcome-component__video__play__button:hover #play {
+    background-image: url("../images/icon3Hover.svg");
+    cursor: pointer;
+}
