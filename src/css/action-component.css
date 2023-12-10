@@ -86,7 +86,7 @@
     width: 500px;
 }
 
-.action-component__form-field input[type="text"] + label {
+.action-component__form-field input[type="text"]:placeholder-shown + label {
     position: absolute;
     left: 24px;
     top: calc(50% - 12px);
@@ -101,6 +101,17 @@
 
 .action-component__form-field input[type="text"]:hover {
     border-color: #F9572E;
+}
+
+.action-component__form-field input[type="text"]:not(:placeholder-shown) + label {
+    position: absolute;
+    left: 24px;
+    top: -9px;
+
+    background-color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #666666;
 }
 
 .action-component__form-field input[type="text"]:focus-visible + label {
