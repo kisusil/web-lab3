@@ -1,18 +1,18 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8"/>
-    <link href="css/common.css" rel="stylesheet">
-    <link href="css/main-page.css" rel="stylesheet">
-    <link href="css/welcome-component.css" rel="stylesheet">
-    <link href="css/description-component.css" rel="stylesheet">
-    <link href="css/images-component.css" rel="stylesheet">
-    <link href="css/action-component.css" rel="stylesheet">
-    <link href="css/footer-component.css" rel="stylesheet">
+    <link type="text/css" href="css/common.css" rel="stylesheet">
+    <link type="text/css" href="css/main-page.css" rel="stylesheet">
+    <link type="text/css" href="css/welcome-component.css" rel="stylesheet">
+    <link type="text/css" href="css/description-component.css" rel="stylesheet">
+    <link type="text/css" href="css/images-component.css" rel="stylesheet">
+    <link type="text/css" href="css/action-component.css" rel="stylesheet">
+    <link type="text/css" href="css/footer-component.css" rel="stylesheet">
     <link type="image/x-icon" href="images/favicon.png" rel="shortcut icon">
     <title>Fix ремонт</title>
 </head>
 <body>
-    <!----------------------------------- WELCOME BLOCK -------------------------------------------------->
     <section class="welcome-component">
         <div class="welcome-component__short-desc">
             <div class="welcome-component__short-desc__logo">
@@ -36,7 +36,7 @@
             </div>
             <a href="#action-component-before">
                 <div class="welcome-component__short-desc__hint">
-                    <button id="hint-icon"></button>
+                    <div id="hint-icon"></div>
                     <span id="hint">
                         Листайте&nbsp;вниз, чтобы&nbsp;ничего&nbsp;не&nbsp;упустить
                     </span>
@@ -61,10 +61,8 @@
             <div class="welcome-component__video__play__stub"></div>
         </div>
     </section>
-    <!---------------------------------------------------------------------------------------------------->
 
     <main class="main-page">
-        <!----------------------------------- DESCRIPTION BLOCK ---------------------------------------------->
         <section class="description-component">
             <div class="description-component__header">
                 <h2 class="color-black font-title-2 mb-8">
@@ -118,9 +116,7 @@
                 </div>
             </div>
         </section>
-        <!---------------------------------------------------------------------------------------------------->
 
-        <!----------------------------------- IMAGES BLOCK --------------------------------------------------->
         <section class="images-component">
             <div class="images-component__header">
                 <h2 class="color-black font-title-2 mb-8">
@@ -190,9 +186,7 @@
                 </div>
             </div>
         </section>
-        <!---------------------------------------------------------------------------------------------------->
 
-        <!----------------------------------- ACTION BLOCK --------------------------------------------------->
         <section id="action-component-before" class="action-component">
             <h2 class="color-black font-title-2">
                 Узнайте&nbsp;о&nbsp;запуске&nbsp;сервиса&nbsp;первым
@@ -241,9 +235,7 @@
                 </span>
             </div>
         </section>
-        <!---------------------------------------------------------------------------------------------------->
 
-        <!----------------------------------- FOOTER BLOCK --------------------------------------------------->
         <footer class="footer-component">
             <div class="footer-component__socials">
                 <div class="footer-component__socials__buttons">
@@ -297,7 +289,6 @@
                 <div id="fake-footer-separator"></div>
             </div>
         </footer>
-        <!---------------------------------------------------------------------------------------------------->
     </main>
     <script src="script.js"></script>
 </body>
